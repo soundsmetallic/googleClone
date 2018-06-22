@@ -1,0 +1,84 @@
+/* nav section */
+
+.nav-wrap {
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-right {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.nav-right .account {
+  background-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  margin: 0 10px;
+  padding: 2px 12px;
+}
+
+.nav-right .apps {
+  width: auto;
+  background-color: white;
+  padding: 2px 5px;
+}
+
+.nav-right a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-left .images, .nav-left .mail {
+  margin: 0 10px;
+}
+
+.nav-left a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+
+/* logo and search */
+
+.logo img {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+}
+
+.search-box {
+  width: 99%;
+  position: absolute;
+  display: flex;
+  top: 340px;
+  justify-content: center;
+}
+
+.search-box input {
+  display: flex;
+  position: relative;
+  width: 500px;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 360px;
+}
+
+.wrapper-left, .wrapper-right{
+  background-color: rgb(242, 242, 242);
+  padding: 10px;
+  margin: auto 20px;
+}
